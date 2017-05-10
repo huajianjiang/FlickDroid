@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.github.abspath.flickdroid.view.fragment.MainFragment">
+
+
+    <Button
+        android:id="@+id/oauth"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:elevation="16dp"
+        android:text="OAuth"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="120dp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="142dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintLeft_toLeftOf="@+id/oauth"
+        app:layout_constraintRight_toRightOf="@+id/oauth"
+        app:layout_constraintTop_toBottomOf="@+id/oauth"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+
+</android.support.constraint.ConstraintLayout>
